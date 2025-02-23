@@ -1,10 +1,8 @@
 {
-  "name": "nextjs-tailwind-portfolio-page",
+  "name": "Matur Innocent J Portfolio",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-portfolio-page",
+  "author": "Matur Innocent J",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

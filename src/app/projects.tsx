@@ -6,44 +6,52 @@ import { Typography } from "@material-tailwind/react";
 const PROJECTS = [
   {
     img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
-  },
-  {
-    img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
-  },
-  {
-    img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "Censono Tech Website",
+    desc: "Website designed to help users discover and get more information on Censono Tech.",
+    link: "https://censonotech.com.ng",
   },
   {
     img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
-  },
-  {
-    img: "/image/blog-1.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "NOUN University Website",
+    desc: "University website for the National Open University of Nigeria with lot of sub-systems in it.",
+    link: "https://nou.edu.ng",
   },
   {
     img: "/image/blog2.svg",
-    title: "Landing Page Development",
+    title: "NOUN SPGS Website",
     desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+    link: "https://spgs.nou.edu.ng",
   },
   {
     img: "/image/blog3.svg",
-    title: "Mobile App Development",
-    desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
+    title: "NOUN News and Events System",
+    desc: "News and Events System (Blog) for the National Open University of Nigeria for information purpose.",
+    link: "https:nou.edu.ng/news-and-events/",
   },
   {
     img: "/image/blog4.svg",
-    title: "E-commerce development",
-    desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
+    title: "Financial Management System",
+    desc: "Financial Management System for managing of incoming and outgoing funds for the NILEST (Prototype).",
+    link: "",
+  },{
+    img: "/image/blog2.svg",
+    title: "Students' College Portal",
+    desc: "Portal to register students, facilitate e-payment of School fees and course registration for students.",
+    link: "https://college.censonotech.com.ng",
   },
+  {
+    img: "/image/blog3.svg",
+    title: "Portfolio Website",
+    desc: "Matur Innocent Joshua's Portfolio Website to showcase his designs and projects.",
+    link: "",
+  },
+  {
+    img: "/image/blog4.svg",
+    title: "AI Chat Bot",
+    desc: "A chat system designed to facilitate conversation between Humans and AI Bot, thus providing answers to questions.",
+    link: "https://ai.censonotech.com.ng",
+  },
+  
 ];
 
 export function Projects() {
@@ -57,7 +65,7 @@ export function Projects() {
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Whether you have a mobile app idea that needs to come to life or a
+          Whether you have a web app idea that needs to come to life or a
           website that requires a facelift, I&apos;m here to turn your digital
           dreams into reality.
         </Typography>

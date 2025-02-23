@@ -1,6 +1,6 @@
 import { Typography, Button } from "@material-tailwind/react";
 
-const LINKS = ["Home", "About Us", "Blog", "Service"];
+const LINKS = ["Home", "Resume", "Service"];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
@@ -13,9 +13,9 @@ export function Footer() {
             <a href="https://www.material-tailwind.com" target="_blank">
               Material Tailwind
             </a>{" "}
-            by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
+            by {" "}
+            <a href="https://www.censonotech.com.ng/our-team/" target="_blank">
+              Matur Innocent J
             </a>
             .
           </Typography>
@@ -32,7 +32,7 @@ export function Footer() {
                 </Typography>
               </li>
             ))}
-            <Button color="gray">subscribe</Button>
+            {/* <Button color="gray">subscribe</Button> */}
           </ul>
         </div>
       </div>

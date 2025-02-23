@@ -44,13 +44,13 @@ export function ContactForm() {
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
-                  +1(424) 535 3523
+                  +234 814 452 9253
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
-                  hello@mail.com
+                  maturinnocent@gmail.com
                 </Typography>
               </div>
               <div className="flex mb-10 gap-5">

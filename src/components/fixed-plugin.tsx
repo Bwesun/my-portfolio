@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
 import { Button } from "@material-tailwind/react";
+import Link from "next/link";
 
 export function FixedPlugin() {
   return (
-    <a href="https://www.material-tailwind.com" target="_blank">
+    <Link href="https://https://censonotech.com.ng/our-team/" target="_blank" className="flex items-center">
       <Button
         color="white"
         size="sm"
@@ -14,11 +15,11 @@ export function FixedPlugin() {
           width={128}
           height={128}
           className="w-5 h-5"
-          alt="Material Tailwind"
-          src="https://www.material-tailwind.com/favicon.png"
+          alt="Censono Tech logo"
+          src="/favicon.png"
         />{" "}
-        Made With Material Tailwind
+        Made by Matur Innocent J
       </Button>
-    </a>
+    </Link>
   );
 }

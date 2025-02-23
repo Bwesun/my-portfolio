@@ -13,6 +13,7 @@ import {
   Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
+  CircleStackIcon,
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
@@ -21,8 +22,8 @@ const NAV_MENU = [
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "Projects",
+    icon: CircleStackIcon,
   },
   {
     name: "Docs",
@@ -69,7 +70,7 @@ export function Navbar() {
     <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <Typography color="blue-gray" className="text-lg font-bold">
-          Material Tailwind
+          Matur Innocent J
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -79,12 +80,12 @@ export function Navbar() {
             </NavItem>
           ))}
         </ul>
-        <div className="hidden items-center gap-2 lg:flex">
+        {/* <div className="hidden items-center gap-2 lg:flex">
           <Button variant="text">Sign In</Button>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
             <Button color="gray">blocks</Button>
           </a>
-        </div>
+        </div> */}
         <IconButton
           variant="text"
           color="gray"
@@ -108,12 +109,12 @@ export function Navbar() {
               </NavItem>
             ))}
           </ul>
-          <div className="mt-6 mb-4 flex items-center gap-2">
+          {/* <div className="mt-6 mb-4 flex items-center gap-2">
             <Button variant="text">Sign In</Button>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
               <Button color="gray">blocks</Button>
             </a>
-          </div>
+          </div> */}
         </div>
       </Collapse>
     </MTNavbar>
