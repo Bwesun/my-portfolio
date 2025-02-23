@@ -8,13 +8,9 @@ import {
 } from "@material-tailwind/react";
 import {
   RectangleStackIcon,
-  UserCircleIcon,
-  CommandLineIcon,
-  Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
   CircleStackIcon,
-  PresentationChartLineIcon,
   BriefcaseIcon,
 } from "@heroicons/react/24/solid";
 

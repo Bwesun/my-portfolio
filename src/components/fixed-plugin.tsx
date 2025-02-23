@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function FixedPlugin() {
   return (
-    <Link href="https://https://censonotech.com.ng/our-team/" target="_blank" className="flex items-center">
+    <Link href="https://censonotech.com.ng/our-team/" target="_blank" className="flex items-center">
       <Button
         color="white"
         size="sm"

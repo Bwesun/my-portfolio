@@ -6,21 +6,22 @@ import {
   PuzzlePieceIcon,
   CursorArrowRaysIcon,
   ArrowRightIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { ResumeItem } from "@/components";
 
 const RESUME_ITEMS = [
   {
-    icon: ChartBarIcon,
-    children: "Bachelor of Science in Computer Science",
+    icon: AcademicCapIcon,
+    children: "Graduate in Computer Science",
   },
   {
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: "Certified Web Designer/Developer ",
   },
   {
     icon: CursorArrowRaysIcon,
-    children: "Frontend Framework Proficiency Certification",
+    children: "Frontend/Backend Framework Proficiency",
   },
 ];
 
