@@ -19,7 +19,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in Nigeria. Here,
+            I&apos;m Matur Innocent Joshua, a passionate web developer based in Nigeria. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
           </Typography>
