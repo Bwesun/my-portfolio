@@ -26,7 +26,7 @@ const SKILLS = [
     icon: WrenchScrewdriverIcon,
     title: "Backend Development",
     children:
-      " I also specialize in developing the backend parts of web apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      " I also specialize in developing the backend parts of web apps that work seamlessly across devices. From concept to deployment, I handle every stage of the development process.",
   },
   {
     icon: SwatchIcon,
