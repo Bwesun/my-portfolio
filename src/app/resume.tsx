@@ -9,6 +9,7 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { ResumeItem } from "@/components";
+import Link from "next/link";
 
 const RESUME_ITEMS = [
   {
@@ -43,7 +44,9 @@ export function Resume() {
             color="gray"
             className="flex items-center gap-2"
           >
-            view more
+            <Link href={"https://drive.google.com/file/d/1068lhY6rbEG2lD6005TTBTJfUyGH0J2v/view?usp=sharing"}>
+            view more            
+            </Link>
             <ArrowRightIcon
               strokeWidth={3}
               className="h-3.5 w-3.5 text-gray-900"
