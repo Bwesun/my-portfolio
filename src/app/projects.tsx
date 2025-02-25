@@ -5,34 +5,34 @@ import { Typography } from "@material-tailwind/react";
 
 const PROJECTS = [
   {
-    img: "/image/blog-1.svg",
+    img: "/image/censono.png",
     title: "Censono Tech Website",
     desc: "Website designed to help users discover and get more information on Censono Tech.",
     link: "https://censonotech.com.ng",
   },
   {
-    img: "/image/blog4.svg",
+    img: "/image/nou.png",
     title: "NOUN University Website",
     desc: "University website for the National Open University of Nigeria with lot of sub-systems in it.",
     link: "https://nou.edu.ng",
   },
   {
-    img: "/image/blog2.svg",
+    img: "/image/spgs.png",
     title: "NOUN SPGS Website",
     desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
     link: "https://spgs.nou.edu.ng",
   },
   {
-    img: "/image/blog3.svg",
+    img: "/image/news.png",
     title: "NOUN News and Events System",
     desc: "News and Events System (Blog) for the National Open University of Nigeria for information purpose.",
-    link: "https:nou.edu.ng/news-and-events/",
+    link: "https://nou.edu.ng/news-and-events/",
   },
   {
     img: "/image/blog4.svg",
     title: "Financial Management System",
     desc: "Financial Management System for managing of incoming and outgoing funds for the NILEST (Prototype).",
-    link: "",
+    link: "https://hng.censonotech.com.ng/",
   },{
     img: "/image/blog2.svg",
     title: "Students' College Portal",
@@ -46,7 +46,7 @@ const PROJECTS = [
     link: "",
   },
   {
-    img: "/image/blog4.svg",
+    img: "/image/chat.png",
     title: "AI Chat Bot",
     desc: "A chat system designed to facilitate conversation between Humans and AI Bot, thus providing answers to questions.",
     link: "https://ai.censonotech.com.ng",
