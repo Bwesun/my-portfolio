@@ -29,18 +29,18 @@ const PROJECTS = [
     link: "https://nou.edu.ng/news-and-events/",
   },
   {
-    img: "/image/blog4.svg",
+    img: "/image/finance.png",
     title: "Financial Management System",
     desc: "Financial Management System for managing of incoming and outgoing funds for the NILEST (Prototype).",
     link: "https://hng.censonotech.com.ng/",
   },{
-    img: "/image/blog2.svg",
+    img: "/image/college.png",
     title: "Students' College Portal",
     desc: "Portal to register students, facilitate e-payment of School fees and course registration for students.",
     link: "https://college.censonotech.com.ng",
   },
   {
-    img: "/image/blog3.svg",
+    img: "/image/portfolio.png",
     title: "Portfolio Website",
     desc: "Matur Innocent Joshua's Portfolio Website to showcase his designs and projects.",
     link: "",
