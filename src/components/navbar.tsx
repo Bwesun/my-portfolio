@@ -18,15 +18,17 @@ const NAV_MENU = [
   {
     name: "Page",
     icon: RectangleStackIcon,
+    href: "/#hero",
   },
   {
     name: "Projects",
     icon: CircleStackIcon,
+    href: "/#projects",
   },
   {
     name: "Skills",
     icon: BriefcaseIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "#skills",
   },
 ];
 
@@ -38,10 +40,10 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      <Typography 
         as="a"
         href={href || "#"}
-        target={href ? "_blank" : "_self"}
+        // target={href ? "_blank" : "_self"}
         variant="paragraph"
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
