@@ -19,7 +19,7 @@ const PROJECTS = [
   {
     img: "/image/spgs.png",
     title: "NOUN SPGS Website",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+    desc: "Website for School of Post Graduate Studies of the National Open University of Nigeria.",
     link: "https://spgs.nou.edu.ng",
   },
   {
