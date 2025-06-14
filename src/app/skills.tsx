@@ -12,6 +12,7 @@ import {
   CogIcon,
   GlobeAltIcon,
   WrenchScrewdriverIcon,
+  DevicePhoneMobileIcon,
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
 
@@ -29,10 +30,16 @@ const SKILLS = [
       " I also specialize in developing the backend parts of web apps that work seamlessly across devices. From concept to deployment, I handle every stage of the development process.",
   },
   {
+    icon: DevicePhoneMobileIcon,
+    title: "Mobile App Development",
+    children:
+      "I specialize in building mobile applications that are fast, user-friendly, and scalable. From UI/UX design to backend integration, I manage the full development lifecycle to deliver apps that work smoothly across devices and platforms.",
+  },
+  {
     icon: SwatchIcon,
     title: "Technology Stack",
     children:
-      "I'm well-versed in the industry's most popular technologies, including HTML5, CSS, PHP, JavaScript, and frameworks like NextJs and Laravel.",
+      "I'm well-versed in the industry's most popular technologies, including HTML5, CSS, PHP, JavaScript, and frameworks like Ionic, NextJs and Laravel.",
   },
   {
     icon: CogIcon,
