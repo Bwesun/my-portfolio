@@ -41,7 +41,7 @@ export function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
         </Typography>
         <Link href={link}>
           <Button color="gray" size="sm">
-            see details
+            view
           </Button>
           
         </Link>
