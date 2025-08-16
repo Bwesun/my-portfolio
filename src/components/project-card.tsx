@@ -39,7 +39,7 @@ export function ProjectCard({ img, title, desc, link }: ProjectCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Link href={link}>
+        <Link href={link} target="_blank">
           <Button color="gray" size="sm">
             view
           </Button>
