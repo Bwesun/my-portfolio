@@ -17,6 +17,18 @@ const PROJECTS = [
     link: "https://nou.edu.ng",
   },
   {
+    img: "/image/censonopay.png",
+    title: "CensonoPay Mobile App",
+    desc: "Mobile Application for Schools and Organizations to manage payment of fees & finances.",
+    link: "https://www.linkedin.com/posts/innocent-matur_censonopay-fintechforeducation-gaiaxtecetel-activity-7328159958556962816-PyGE?utm_source=share&utm_medium=member_desktop&rcm=ACoAACs4TIwBs5cnj3hVTzHGWZryOUvC9Rz3MG8",
+  },
+  {
+    img: "/image/deliveryx.jpeg",
+    title: "DeliveryX Mobile App",
+    desc: "A Pickup and Delivery Mobile Application to enable fast delivery of products and items.",
+    link: "https://www.linkedin.com/posts/innocent-matur_gaiacademy-tecetel-mobileappdeveloper-activity-7358132316101042176-WNm0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACs4TIwBs5cnj3hVTzHGWZryOUvC9Rz3MG8",
+  },
+  {
     img: "/image/spgs.png",
     title: "NOUN SPGS Website",
     desc: "Website for School of Post Graduate Studies of the National Open University of Nigeria.",
