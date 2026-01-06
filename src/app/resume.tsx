@@ -44,7 +44,7 @@ export function Resume() {
             color="gray"
             className="flex items-center gap-2"
           >
-            <Link href={"https://drive.google.com/file/d/1068lhY6rbEG2lD6005TTBTJfUyGH0J2v/view?usp=sharing"}>
+            <Link href={"https://drive.google.com/file/d/1TrTMfXI4P2RYDd1YsEfpp1OFXHj7lUi4/view?usp=sharing"}>
             view more            
             </Link>
             <ArrowRightIcon
